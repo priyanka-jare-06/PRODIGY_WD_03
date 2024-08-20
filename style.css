@@ -1,0 +1,106 @@
+*{
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    }
+    body{
+    height: 100vh;
+    background: linear-gradient(135deg,#0c0328,#1e0b25); 
+    background-color:#210e1b;
+    }
+    h1{
+        text-align: center;
+        color: rgb(197, 116, 116);
+    }
+    
+    html{
+    font-size: 16px;
+    }
+    .game-box{
+    
+    position: absolute;
+    transform: translate(-50%,-50%); 
+    top: 50%;
+    left: 50%;
+    }
+    .container{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    }
+    .button-option{
+    background: #b6a1a1;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 8px;
+     font-size: 12vmin;
+    color: #040009;
+  
+    }
+    .button-option:hover{
+    
+    
+    cursor: pointer;
+    border:4px solid rgb(5, 4, 0); 
+    box-shadow: 0 0 1.9rem;
+    }
+    #reset{
+    font-size: 1.3em;
+    margin-top:  1.5em;
+    padding: 18px ;
+    border-radius: 15px;
+    background-color: #421933;
+    border: 2px solid rgb(132, 128, 128);
+    position: relative;
+    margin: 1em auto 0 auto;
+    display: block;
+    transition: 0.5s;
+    }
+    #reset:hover{
+    background-color: #1c1c26;
+    color: #ffff;
+    box-shadow: 0 0 1.3rem;
+    font-size: 34
+     ccccx;
+    
+    }
+    .popup{
+ background: linear-gradient(135deg,#8052ec,#d161ff); 
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    font-size: 12vmin;
+    flex-direction: column-reverse;
+    
+    }
+    #new-game{
+    padding: 0.5em 1em;
+    background-color: #1c0921;
+    color: white;
+    border-radius: 0.7em;
+    border: none;
+    font-size: 0.5em;
+    }
+    #msg{
+    
+    text-align: center; 
+    font-size: 1em;
+    color: #d9e6e0;
+    
+    
+      
+    
+    }
+    .popup.hide{
+     display: none;
+    }
